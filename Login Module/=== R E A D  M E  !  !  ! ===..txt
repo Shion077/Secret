@@ -1,0 +1,46 @@
+========================================
+GO-GOYAGOY DENTAL CLINIC
+Authentication System - README
+========================================
+
+1. LOGIN
+----------------------------------------
+- You must log in using the EXACT email or mobile number you registered.
+- The password must also match EXACTLY as registered.
+- Both email/number and password are case-sensitive.
+
+2. REGISTRATION
+----------------------------------------
+All fields must meet the following rules:
+
+- Email:
+  • Must contain "@gmail.com"
+
+- Mobile Number:
+  • Must be exactly 11 digits (numbers only)
+
+- First Name and Last Name:
+  • Letters only (no numbers or special characters)
+
+- Password:
+  • Minimum length: 8 characters
+  • Maximum length: 15 characters
+  • Must contain at least ONE special character
+  • Must contain at least ONE number
+
+- Repeat Password:
+  • Must match the Password exactly
+
+3. FORGOT PASSWORD
+----------------------------------------
+- You must provide a registered Email or Mobile Number.
+- An OTP will be sent to your registered contact.
+- After verifying the OTP, the "Change Password" form will appear.
+- You can then set your new password (must follow the registration password rules).
+
+========================================
+NOTES:
+----------------------------------------
+- Make sure to remember your registered Email/Mobile Number and Password.
+- For security, never share your OTP or password with anyone.
+========================================
