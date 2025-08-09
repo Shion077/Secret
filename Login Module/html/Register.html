@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="{{ url_for('custom_js', filename='Register.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('custom_css', filename='Register.css') }}">
+    <title>Go-Goyagoy Dental Clinic - Sign Up</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="left-panel">
+        <div class="top-panel">
+          <h1>GO-GOYAGOY<br>DENTAL CLINIC</h1>
+          <h2>Dra. Lorylie Go Goyagoy</h2>
+          <p>GENERAL DENTISTRY, ORTHODONTICS<br>& ENDODONTICS</p>
+        </div>
+      </div>
+
+      <div class="right-panel">
+        <form class="form-grid" action="{{ url_for('register') }}" method="POST">
+          <div>
+            <label>First Name</label>
+            <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
+          </div>
+          <div>
+            <label>Last Name</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+          </div>
+          <div class="full">
+            <label>Email Address</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+          </div>
+          <div>
+            <label>Phone Number</label>
+            <input type="text" name="phone" id="phone" placeholder="Phone Number" required>
+          </div>
+          <div>
+            <label>Country</label>
+            <input type="text" name="country" id="country" placeholder="Country" required>
+          </div>
+          <div>
+            <label>Password</label>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+          </div>
+          <div>
+            <label>Repeat Password</label>
+            <input type="password" name="repeatPassword" id="repeatPassword" placeholder="Repeat Password" required>
+          </div>
+          <div id="registerErrorMsg" class="error-message" style="color:red; margin-top:10px;"></div>
+
+          <div class="full">
+            <button type="submit">REGISTER NOW!</button>
+          </div>
+          <div class="full" style="margin-top: 10px;">
+            <a href="{{ url_for('login') }}">Already have an account? Login</a>
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+  </body>
+</html>

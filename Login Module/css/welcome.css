@@ -1,0 +1,38 @@
+body{
+    background-color: #fde6eb;
+    font-family: 'Cooper Black', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: 'Cooper Black';
+    src: url('path/to/cooper-black.woff2') format('woff2'),
+         url('path/to/cooper-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img{
+    width: 1000px;
+    border: 2px solid;
+    border-color: black;
+}
+
+h2{
+    color: #b1005b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}

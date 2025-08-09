@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{ url_for('custom_css', filename='Welcomeadmin.css') }}">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>GO-GOYAGOY DENTAL CLINIC</title>
+    </head>
+
+    <body>
+        {% if user %}
+        <h2>Welcome Admin ! ! !</h2> 
+        <h3>{{ user.lastname }}, {{ user.firstname }}</h3>
+        {% endif %}
+        <form action="/logout" method="post">
+            <button type="submit">Logout</button>
+        </form>
+    </body>
+</html>

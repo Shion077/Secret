@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "firstname": "Demo1",
+        "lastname": "Account",
+        "email": "Demo1@gmail.com",
+        "phone": "12345678901",
+        "country": "None",
+        "password": "Demo1",
+        "role": "Admin"
+    },
+    {
+        "id": 2,
+        "firstname": "Demo2",
+        "lastname": "Account",
+        "email": "Demo2@gmail.com",
+        "phone": "12345678901",
+        "country": "None",
+        "password": "Demo2",
+        "role": "HeadAdmin"
+    },
+    {
+        "id": 3,
+        "firstname": "Demo3",
+        "lastname": "Account",
+        "email": "Demo3@gmail.com",
+        "phone": "12345678901",
+        "country": "None",
+        "password": "Demo3",
+        "role": "Patient"
+    }
+]
