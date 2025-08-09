@@ -43,4 +43,18 @@ NOTES:
 ----------------------------------------
 - Make sure to remember your registered Email/Mobile Number and Password.
 - For security, never share your OTP or password with anyone.
+
 ========================================
+
+===== D E M O  A C C O U N T ! ! ! =====
+email : Demo1@gmail.com
+password : "Demo1
+role : Admin
+
+email : Demo2@gmail.com
+password : Demo2
+role : HeadAdmin
+
+email : Demo3@gmail.com
+password : Demo3
+role : Patient
